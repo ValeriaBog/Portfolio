@@ -3,7 +3,7 @@ import s from './Contacts.module.scss'
 import sContainer from '../../common/styles/Container.module.scss'
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
-import SendIcon from '@mui/icons-material/Send';
+// import SendIcon from '@mui/icons-material/Send';
 import Title from "../../common/components/Title";
 
 
@@ -57,7 +57,7 @@ function Contacts() {
                                    rows={4}
                                    margin="dense"
                         />
-                        <Button variant="outlined" endIcon={<SendIcon className={s.icon}/>} className={s.button}>
+                        <Button variant="outlined"  className={s.button}>
                             Отправить
                         </Button>
                     </form>
