@@ -1,0 +1,75 @@
+@import "./src/common/styles/sass/variables";
+@import "./src/common/styles/sass/mixins";
+
+.mainBlock {
+  min-height: 90vh;
+  background: $mainBGColor;
+  padding-top: 60px;
+
+
+  .container {
+
+  }
+
+  .introduce {
+    width: 60%;
+    background-color: $mainBGColor;
+    span {
+      @include text(24px, 36px);
+      @media screen and (max-width: 674px) {
+        @include text(19px, 32px);
+      }
+    }
+
+    h1 {
+      @include text(42px, 52px);
+      color: $primaryColor;
+      @media screen and (max-width: 674px) {
+        @include text(36px, 42px);
+        color: $primaryColor;
+      }
+    }
+
+    p {
+      @include text(24px, 36px);
+      @media screen and (max-width: 674px) {
+        @include text(22px, 32px);
+      }
+    }
+    @media screen and (max-width: 945px) {
+      order: 2;
+      text-align: center;
+      width: 770px;
+    }
+    //@media screen and (max-width: 945px) {
+    //
+    //}
+  }
+
+  .photo {
+    width: 350px;
+    height: 430px;
+    background-color: bisque;
+    @include background(center, cover, no-repeat);
+    border-radius: 10px;
+    box-shadow: inset rgba(0,0,0,.5) -3px -3px 8px,
+    inset rgba(255, 255, 255, .9) 3px 3px 8px,
+    rgba(0, 0, 0, .8) 3px 3px 8px -3px;;
+    @media screen and (max-width: 945px) {
+      order: 1;
+      width: 270px;
+      height: 270px;
+      border-radius: 50%;
+      border: 4px solid #252525;
+      margin: 0 auto 25px;
+    }
+    @media screen and (min-width:946px) and (max-width: 1093px) {
+      width: 300px;
+    }
+  }
+}
+
+
+
+
+

@@ -1,0 +1,13 @@
+@import "./variables";
+
+@mixin text($fontSize, $lineHeight){
+  font-size: $fontSize;
+  line-height: $lineHeight;
+  color: $textColor;
+}
+
+@mixin background($backgroundPosition, $backgroundSize, $backgroundRepeat){
+  background-position: $backgroundPosition;
+  background-size: $backgroundSize;
+  background-repeat: $backgroundRepeat;
+}

@@ -1,0 +1,28 @@
+@import "../../common/styles/sass/variables";
+
+.worksBlock {
+    position: relative;
+    min-height: 100vh;
+    padding: 100px 0;
+    background: $mainBGColor;
+    .worksContainer {
+        justify-content: flex-start;
+        flex-direction: column;
+        .works {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            padding-top: 30px;
+            align-items: flex-start; /*длина дивки выравняется под описание проектов */
+            @media screen and (max-width: 1004px){
+                justify-content: center;
+            }
+        }
+
+    }
+}
+
+
+
+

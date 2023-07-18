@@ -1,0 +1,27 @@
+@import "./src/common/styles/sass/variables";
+@import "./src/common/styles/sass/mixins";
+
+.nav{
+    display: flex;
+    width: 350px;
+    justify-content: space-around;
+    border: 1px solid;
+    margin-right: 40px;
+
+
+    a{
+        @include text(18px, 26px) ;
+        color: white;
+        text-decoration: none;
+        transition: color 0.3s ease-in-out;
+        &:hover{
+            color:$primaryColor;
+            transition: color 0.3s ease-in-out;
+        }
+
+    }
+    @media screen and (max-width: 430px) {
+
+        margin-right: 0;
+    }
+}

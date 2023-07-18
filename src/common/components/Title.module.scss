@@ -1,0 +1,35 @@
+@import "../../common/styles/sass/variables";
+
+.title {
+  position: relative;
+  margin: 0 0 30px;
+
+  h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    color: $textColor;
+    text-transform: capitalize;
+    margin: 0;
+    line-height: 1.2;
+
+    span {
+      color: $primaryColor;
+    }
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    background: $primaryColor;
+    width: 65px;
+    height: 1px;
+    bottom: -30px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+
+  }
+}
+
+
+
