@@ -13,19 +13,22 @@ function Contacts() {
 
     const styles={
         "& .css-10botns-MuiInputBase-input-MuiFilledInput-input": {color: "rgb(255,255,255)"},
-        "& .css-1o7gkuu-MuiFormLabel-root-MuiInputLabel-root": {color:"rgba(194,193,193,0.76)"},
+        "& .css-16wsfxt": {color:"rgba(194,193,193,0.76)"},
         "& .css-2bbgvg-MuiInputBase-root-MuiFilledInput-root:after": {borderBottom:"2px solid #ffb400"},
         "& .css-bpg8fg-MuiFormLabel-root-MuiInputLabel-root.Mui-focused": {color:"#ffb400"},
 
     };
-    // const textarea = {
-    //     "& .css-k70mun-MuiInputBase-root-MuiFilledInput-root:after": {borderBottom:"2px solid #ffb400"},
-    //     "& .css-bpg8fg-MuiFormLabel-root-MuiInputLabel-root.Mui-focused": {color:"#ffb400"},
-    //     "& .css-1o7gkuu-MuiFormLabel-root-MuiInputLabel-root": {color:"rgba(194,193,193,0.76)"},
-    //     "& .css-k70mun-MuiInputBase-root-MuiFilledInput-root": {color: "rgb(255,255,255)"},
-    //
-    // };
+    const textarea = {
+        "& .css-k70mun-MuiInputBase-root-MuiFilledInput-root:after": {borderBottom:"2px solid #ffb400"},
+        "& .css-bpg8fg-MuiFormLabel-root-MuiInputLabel-root.Mui-focused": {color:"#ffb400"},
+        "& .css-1o7gkuu-MuiFormLabel-root-MuiInputLabel-root": {color:"rgba(194,193,193,0.76)"},
+        "& .css-k70mun-MuiInputBase-root-MuiFilledInput-root": {color: "rgb(255,255,255)"},
 
+    };
+
+    const styles2 ={
+        "& .css-16wsfxt": {color:"rgba(194,193,193,0.76)"},
+    }
 
     return (
         <div className={s.contactsBlock}>
@@ -46,7 +49,7 @@ function Contacts() {
                                    fullWidth
                                    color="warning"
                                    className={s.input}
-                                   // sx={styles}
+                                   sx={styles}
                                    margin="dense"
                         />
                         <TextField label="Введите текст..."
@@ -54,10 +57,11 @@ function Contacts() {
                                    fullWidth
                                    color="warning"
                                    className={s.input}
-                                   sx={{"& .css-k70mun-MuiInputBase-root-MuiFilledInput-root:after": {borderBottom:"2px solid #ffb400"}}}
+                                    sx={textarea}
                                    multiline
                                    rows={4}
                                    margin="dense"
+
 
                         />
                         <Button variant="outlined"  className={s.button}>
