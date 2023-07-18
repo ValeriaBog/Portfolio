@@ -16,14 +16,14 @@ function Contacts() {
         "& .css-2bbgvg-MuiInputBase-root-MuiFilledInput-root:after": {borderBottom:"2px solid #ffb400"},
         "& .css-bpg8fg-MuiFormLabel-root-MuiInputLabel-root.Mui-focused": {color:"#ffb400"},
 
-    }
+    };
     const textarea = {
         "& .css-k70mun-MuiInputBase-root-MuiFilledInput-root:after": {borderBottom:"2px solid #ffb400"},
         "& .css-bpg8fg-MuiFormLabel-root-MuiInputLabel-root.Mui-focused": {color:"#ffb400"},
         "& .css-1o7gkuu-MuiFormLabel-root-MuiInputLabel-root": {color:"rgba(194,193,193,0.76)"},
         "& .css-k70mun-MuiInputBase-root-MuiFilledInput-root": {color: "rgb(255,255,255)"},
 
-    }
+    };
 
     return (
         <div className={s.contactsBlock}>
