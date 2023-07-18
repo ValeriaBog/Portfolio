@@ -33,7 +33,7 @@ function Contacts() {
         "& .css-imrgth": {color: "rgba(194,193,193,0.76)"},
         "& .css-bpg8fg-MuiFormLabel-root-MuiInputLabel-root": {color: "rgba(194,193,193,0.76)"},
         "& .css-k70mun-MuiInputBase-root-MuiFilledInput-root": {color: "rgb(255,255,255)"},
-        "& .css-17qms1e::after": {color: "rgb(255,255,255)"},
+        "& .css-m8qjwn": {color: "rgb(255,255,255)"},
 
     };
 
