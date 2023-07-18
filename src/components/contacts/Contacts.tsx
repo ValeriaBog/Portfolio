@@ -5,6 +5,7 @@ import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
 // import SendIcon from '@mui/icons-material/Send';
 import Title from "../../common/components/Title";
+import {styled} from "@mui/system";
 
 
 
@@ -17,13 +18,14 @@ function Contacts() {
         "& .css-bpg8fg-MuiFormLabel-root-MuiInputLabel-root.Mui-focused": {color:"#ffb400"},
 
     };
-    const textarea = {
-        "& .css-k70mun-MuiInputBase-root-MuiFilledInput-root:after": {borderBottom:"2px solid #ffb400"},
-        "& .css-bpg8fg-MuiFormLabel-root-MuiInputLabel-root.Mui-focused": {color:"#ffb400"},
-        "& .css-1o7gkuu-MuiFormLabel-root-MuiInputLabel-root": {color:"rgba(194,193,193,0.76)"},
-        "& .css-k70mun-MuiInputBase-root-MuiFilledInput-root": {color: "rgb(255,255,255)"},
+    // const textarea = {
+    //     "& .css-k70mun-MuiInputBase-root-MuiFilledInput-root:after": {borderBottom:"2px solid #ffb400"},
+    //     "& .css-bpg8fg-MuiFormLabel-root-MuiInputLabel-root.Mui-focused": {color:"#ffb400"},
+    //     "& .css-1o7gkuu-MuiFormLabel-root-MuiInputLabel-root": {color:"rgba(194,193,193,0.76)"},
+    //     "& .css-k70mun-MuiInputBase-root-MuiFilledInput-root": {color: "rgb(255,255,255)"},
+    //
+    // };
 
-    };
 
     return (
         <div className={s.contactsBlock}>
@@ -44,7 +46,7 @@ function Contacts() {
                                    fullWidth
                                    color="warning"
                                    className={s.input}
-                                   sx={styles}
+                                   // sx={styles}
                                    margin="dense"
                         />
                         <TextField label="Введите текст..."
@@ -52,10 +54,11 @@ function Contacts() {
                                    fullWidth
                                    color="warning"
                                    className={s.input}
-                                   sx={textarea}
+                                   sx={{"& .css-k70mun-MuiInputBase-root-MuiFilledInput-root:after": {borderBottom:"2px solid #ffb400"}}}
                                    multiline
                                    rows={4}
                                    margin="dense"
+
                         />
                         <Button variant="outlined"  className={s.button}>
                             Отправить
