@@ -36,6 +36,7 @@
         @media screen and (min-width: 797px) and (max-width: 1190px) {
           width: 70%;
         }
+
         .input {
           color: #747475;
           background: $bgColor;
@@ -46,6 +47,9 @@
       }
 
       .button {
+        position: relative;
+        background: rgba(0, 0, 0, 0);
+        padding: 10px 20px;
         color: $textColor;
         border: 1px solid $primaryColor;
         border-radius: 4px;
@@ -56,22 +60,25 @@
         font-size: 15px;
         letter-spacing: .5px;
         margin-top: 10px;
-        .icon{
+
+        .icon {
           color: $textColor;
         }
-        &:before {
-          content:'';
+
+        &::before {
+          content: '';
           position: absolute;
           top: 0;
           left: 0;
           width: 0;
-          height: 37px;
+          height: 40px;
           background: $primaryColor;
           z-index: -1;
           transition: all .3s ease;
-border-radius: 3px;
+          border-radius: 3px;
         }
-        &:hover:before {
+
+        &:hover::before {
           width: 100%;
 
         }

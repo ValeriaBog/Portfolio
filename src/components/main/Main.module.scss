@@ -8,7 +8,7 @@
 
 
   .container {
-
+    justify-content: center;
   }
 
   .introduce {
@@ -28,6 +28,31 @@
         @include text(36px, 42px);
         color: $primaryColor;
       }
+      span{
+        @include text(42px, 52px);
+        position: relative;
+        z-index: 0;
+        display: inline-block;
+        &:before{
+          content: '';
+          position: absolute;
+          width: 100%;
+          height: 14px;
+          background-color: $primaryColor;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          z-index: -1;
+        }
+        @media screen and (max-width: 458px) {
+          color: $primaryColor;
+          &:before{
+            content: none;
+
+          }
+        }
+      }
+
     }
 
     p {
@@ -41,32 +66,48 @@
       text-align: center;
       width: 770px;
     }
-    //@media screen and (max-width: 945px) {
-    //
-    //}
+
   }
 
-  .photo {
-    width: 350px;
-    height: 430px;
-    background-color: bisque;
-    @include background(center, cover, no-repeat);
-    border-radius: 10px;
-    box-shadow: inset rgba(0,0,0,.5) -3px -3px 8px,
-    inset rgba(255, 255, 255, .9) 3px 3px 8px,
-    rgba(0, 0, 0, .8) 3px 3px 8px -3px;;
-    @media screen and (max-width: 945px) {
-      order: 1;
-      width: 270px;
-      height: 270px;
-      border-radius: 50%;
-      border: 4px solid #252525;
-      margin: 0 auto 25px;
-    }
-    @media screen and (min-width:946px) and (max-width: 1093px) {
-      width: 300px;
+  .photo{
+    position: relative;
+    z-index: 1;
+    .image {
+      width: 350px;
+      height: 430px;
+      background-color: bisque;
+      @include background(center, cover, no-repeat);
+      box-shadow: inset rgba(0,0,0,.5) -3px -3px 8px,
+      inset rgba(255, 255, 255, .9) 3px 3px 8px,
+      rgba(0, 0, 0, .8) 3px 3px 8px -3px;;
+
+      &:before{
+        content: '';
+        position: absolute;
+        height: 110%;
+        width: 105%;
+        border: 5px solid $primaryColor;
+        left: 15px;
+        top: -15px;
+        z-index: -1;
+      }
+      @media screen and (max-width: 945px) {
+        order: 1;
+        width: 270px;
+        height: 270px;
+        border-radius: 50%;
+        border: 4px solid $primaryColor;
+        margin: 0 auto 25px;
+        &:before {
+          content: none;
+        }
+      }
+      @media screen and (min-width:946px) and (max-width: 1093px) {
+        width: 300px;
+      }
     }
   }
+
 }
 
 
