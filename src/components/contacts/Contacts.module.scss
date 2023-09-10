@@ -5,9 +5,11 @@
   min-height: 85vh;
   background-color: $mainBGColor;
 
+
   .contactsContainer {
     justify-content: flex-start;
     flex-direction: column;
+    padding: 100px 0;
 
     .contacts {
       border: 1px solid;

@@ -2,9 +2,9 @@
 @import "./src/common/styles/sass/mixins";
 
 .mainBlock {
-  min-height: 90vh;
+  min-height: 110vh;
   background: $mainBGColor;
-  padding-top: 60px;
+  padding-top: 120px;
 
 
   .container {
@@ -14,6 +14,7 @@
   .introduce {
     width: 60%;
     background-color: $mainBGColor;
+    padding-right: 10px;
     span {
       @include text(24px, 36px);
       @media screen and (max-width: 674px) {
@@ -60,6 +61,9 @@
       @media screen and (max-width: 674px) {
         @include text(22px, 32px);
       }
+    }
+    .info{
+      @include text(19px, 32px);
     }
     @media screen and (max-width: 945px) {
       order: 2;

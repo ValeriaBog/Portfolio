@@ -72,7 +72,7 @@ function Contacts() {
 
     return (
         <div className={s.contactsBlock}>
-            <div className={`${sContainer.container} ${s.contactsContainer}`}>
+            <div className={`${sContainer.container} ${s.contactsContainer}`} id="contacts">
                 <Title firstPartTitle={''} secondPartTitle={'Контакты'}/>
                 <div className={s.contacts}>
                     <form className={s.form} onSubmit={sendEmail} ref={form}>

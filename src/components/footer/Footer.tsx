@@ -4,6 +4,8 @@ import sContainer from '../../common/styles/Container.module.scss'
 import telegramImage from "../../assets/image/footer/telegram.svg";
 import whatsappImage from "../../assets/image/footer/whatsapp.svg";
 import emailImage from "../../assets/image/footer/email.svg";
+import codeWarsImage from "../../assets/image/footer/codewars.svg";
+import gitHubImage from "../../assets/image/footer/github.svg";
 import {Link} from "react-router-dom";
 
 
@@ -18,6 +20,12 @@ function Footer() {
     const emailIcon = {
         backgroundImage: `url(${emailImage})`
     }
+    const codeWarslIcon = {
+        backgroundImage: `url(${codeWarsImage})`
+    }
+    const gitHublIcon = {
+        backgroundImage: `url(${gitHubImage})`
+    }
 
     return (
         <div className={s.footerBlock}>
@@ -28,6 +36,8 @@ function Footer() {
                         <Link to={'https://t.me/ValeriaBog'}><div className={s.site} style={telegramIcon}></div></Link>
                         <Link to={'https://api.whatsapp.com/send?phone=79214356456'}><div className={s.site} style={whatsappIcon}></div></Link>
                         <Link to={'mailto:valeriabog@yandex.ru'}><div className={s.site} style={emailIcon}></div></Link>
+                        <Link to={'https://www.codewars.com/users/ValeriaBog'}><div className={s.site} style={codeWarslIcon}></div></Link>
+                        <Link to={'https://github.com/ValeriaBog'}><div className={s.site} style={gitHublIcon}></div></Link>
                     </div>
                     <div className={s.copyright}>© 2023 Все права защищены</div>
                 </div>

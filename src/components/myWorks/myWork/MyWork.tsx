@@ -11,7 +11,7 @@ type MyWorkType = {
 
 function MyWork(props: MyWorkType) {
     return (
-        <div className={s.work}>
+        <div className={s.work} >
             <div className={s.image} style={props.style}>
                 <button className={s.button}>Смотреть</button>
             </div>

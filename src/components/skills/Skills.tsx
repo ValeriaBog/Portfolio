@@ -12,6 +12,15 @@ import angularImage from "../../assets/image/skills/angular.svg";
 import nestImage from "../../assets/image/skills/nestjs.svg";
 import tsImage from "../../assets/image/skills/typescript.svg";
 import sassImage from "../../assets/image/skills/sass.svg";
+import MUIImage from "../../assets/image/skills/MUI.png";
+import axiosImage from "../../assets/image/skills/axios.svg";
+import styledComponentsImage from "../../assets/image/skills/styledComponents.svg";
+import formikImage from "../../assets/image/skills/formik.svg";
+import jestImage from "../../assets/image/skills/jest.svg";
+import storybookImage from "../../assets/image/skills/storybook-icon.svg";
+import gitImage from "../../assets/image/skills/github.svg";
+import postmanImage from "../../assets/image/skills/postman.svg";
+import mongoDBImage from "../../assets/image/skills/mongodb-original-wordmark.svg";
 
 
 function Skills() {
@@ -53,6 +62,42 @@ function Skills() {
             title: 'Sass',
             description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
         },
+        skill10: {
+            title: 'Axios',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+        },
+        skill11: {
+            title: 'Material UI',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+        },
+        skill12: {
+            title: 'Styled Components',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+        },
+        skill13: {
+            title: 'Formik',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+        },
+        skill14: {
+            title: 'Jest',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+        },
+        skill15: {
+            title: 'Storybook',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+        },
+        skill16: {
+            title: 'Git',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+        },
+        skill17: {
+            title: 'Postman',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+        },
+        skill18: {
+            title: 'MongoDB',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+        },
     }
 
     const jsIcon = {
@@ -82,10 +127,38 @@ function Skills() {
     const sassIcon = {
         backgroundImage: `url(${sassImage})`
     }
+    const axiosIcon = {
+        backgroundImage: `url(${axiosImage})`
+    }
+    const MUIIcon = {
+        backgroundImage: `url(${MUIImage})`
+    }
+    const styledComponentsIcon = {
+        backgroundImage: `url(${styledComponentsImage})`
+    }
+    const formikIcon = {
+        backgroundImage: `url(${formikImage})`
+    }
+    const jestIcon = {
+        backgroundImage: `url(${jestImage})`
+    }
+    const storybookIcon = {
+        backgroundImage: `url(${storybookImage})`
+    }
+    const gitIcon = {
+        backgroundImage: `url(${gitImage})`
+    }
+    const postmanIcon = {
+        backgroundImage: `url(${postmanImage})`
+    }
+    const mongoDBIcon = {
+        backgroundImage: `url(${mongoDBImage})`
+    }
+
 
     return (
-        <div className={s.skillsBlock}>
-            <div className={`${sContainer.container} ${s.skillsContainer}`}>
+        <div className={s.skillsBlock} id="skills">
+            <div className={`${sContainer.container} ${s.skillsContainer}`} >
                 <Title firstPartTitle={'Мои'} secondPartTitle={'скиллы'}/>
                 <div className={s.skills}>
                     <Skill style={jsIcon}
@@ -115,6 +188,33 @@ function Skills() {
                     <Skill style={sassIcon}
                            title={skills.skill9.title}
                            description={skills.skill9.description}/>
+                    <Skill style={axiosIcon}
+                           title={skills.skill10.title}
+                           description={skills.skill10.description}/>
+                    <Skill style={MUIIcon}
+                           title={skills.skill11.title}
+                           description={skills.skill11.description}/>
+                    <Skill style={styledComponentsIcon}
+                           title={skills.skill12.title}
+                           description={skills.skill12.description}/>
+                    <Skill style={formikIcon}
+                           title={skills.skill13.title}
+                           description={skills.skill13.description}/>
+                    <Skill style={jestIcon}
+                           title={skills.skill14.title}
+                           description={skills.skill14.description}/>
+                    <Skill style={storybookIcon}
+                           title={skills.skill15.title}
+                           description={skills.skill15.description}/>
+                    <Skill style={gitIcon}
+                           title={skills.skill16.title}
+                           description={skills.skill16.description}/>
+                    <Skill style={postmanIcon}
+                           title={skills.skill17.title}
+                           description={skills.skill17.description}/>
+                    <Skill style={mongoDBIcon}
+                           title={skills.skill18.title}
+                           description={skills.skill18.description}/>
                 </div>
             </div>
         </div>

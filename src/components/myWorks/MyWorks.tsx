@@ -5,6 +5,7 @@ import MyWork from "./myWork/MyWork";
 import Title from "../../common/components/Title";
 import todoImage from '../../assets/image/works/todolists.jpg'
 import socialImage from '../../assets/image/works/social-network.jpg'
+import foodAppImage from '../../assets/image/works/foodApp.png'
 
 
 function MyWorks() {
@@ -18,6 +19,10 @@ function MyWorks() {
             title: 'Todolists',
             description: 'Asperiores cumque deleniti doloribus error excepturi fuga in ipsa laudantium libero!Asperiores cumque deleniti doloribus error excepturi fuga in ipsa laudantium libero!Asperiores cumque deleniti doloribus error excepturi fuga in ipsa laudantium libero!'
         },
+        project3: {
+            title: 'Online food delivery',
+            description: 'Asperiores cumque deleniti doloribus error excepturi fuga in ipsa laudantium libero!Asperiores cumque deleniti doloribus error excepturi fuga in ipsa laudantium libero!Asperiores cumque deleniti doloribus error excepturi fuga in ipsa laudantium libero!'
+        },
     }
 
     const socialNetwork = {
@@ -26,10 +31,13 @@ function MyWorks() {
     const todolists = {
         backgroundImage: `url(${todoImage})`
     }
+    const foodDeliveryApp = {
+        backgroundImage: `url(${foodAppImage})`
+    }
 
     return (
-        <div className={s.worksBlock}>
-            <div className={`${sContainer.container} ${s.worksContainer}`}>
+        <div className={s.worksBlock} id="works">
+            <div className={`${sContainer.container} ${s.worksContainer}`} >
                 <Title firstPartTitle={'Мои'} secondPartTitle={'проекты'}/>
                 <div className={s.works}>
                     <MyWork style={socialNetwork}
@@ -38,6 +46,9 @@ function MyWorks() {
                     <MyWork style={todolists}
                             title={projects.project2.title}
                             description={projects.project2.description}/>
+                    <MyWork style={foodDeliveryApp}
+                            title={projects.project3.title}
+                            description={projects.project3.description}/>
                 </div>
             </div>
         </div>
