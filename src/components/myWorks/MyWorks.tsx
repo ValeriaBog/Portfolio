@@ -6,6 +6,7 @@ import Title from "../../common/components/Title";
 import todoImage from '../../assets/image/works/todolists.jpg'
 import socialImage from '../../assets/image/works/social-network.jpg'
 import foodAppImage from '../../assets/image/works/foodApp.png'
+import flashCardsImage from '../../assets/image/works/FlashCards.png'
 
 
 function MyWorks() {
@@ -13,15 +14,47 @@ function MyWorks() {
     const projects = {
         project1: {
             title: 'Social network',
-            description: 'Asperiores cumque deleniti doloribus error excepturi fuga in ipsa laudantium libero!Asperiores cumque deleniti doloribus error excepturi fuga in ipsa laudantium libero!Asperiores cumque deleniti doloribus error excepturi fuga in ipsa laudantium libero!Asperiores cumque deleniti doloribus error excepturi fuga in ipsa laudantium libero!'
+            mainDescription: 'Task manager - приложение для создания, организации и управления задачами и списками дел. Стек: TS, React, Redux Toolkit, Redux-thunk, React Router, Axios, Formik, MUI, Jest.',
+            stackDescription: 'Task manager - приложение для создания, организации и управления задачами и списками дел. Стек: TS, React, Redux Toolkit, Redux-thunk, React Router, Axios, Formik, MUI, Jest.',
+            listDescription: {
+                1: 'пппппппппп',
+                2: 'пппппп',
+                3: 'Разрабатывала систему регистрации: создание и валидация форм.',
+            },
+            link: 'https://valeriabog.github.io/Updated-Social-Network/'
         },
         project2: {
-            title: 'Todolists',
-            description: 'Asperiores cumque deleniti doloribus error excepturi fuga in ipsa laudantium libero!Asperiores cumque deleniti doloribus error excepturi fuga in ipsa laudantium libero!Asperiores cumque deleniti doloribus error excepturi fuga in ipsa laudantium libero!'
+            title: 'Task manager',
+            mainDescription: 'Task manager - приложение для создания, организации и управления задачами и списками дел.',
+            stackDescription: 'TS, React, Redux Toolkit, Redux-thunk, React Router, Axios, Formik, MUI, Jest.',
+            listDescription: {
+                1: 'Разработала приложение, используя трехуровневую архитектуру: UI-BLL-DAL.',
+                2: 'Разработала систему регистрации: создание и валидация форм.',
+                3: 'Внедрила стейт-менеджмент, где хранятся данные об инициализации приложения, статусе загрузки данных с сервера и тд.',
+                4: 'Покрыла код unit-тестами.',
+            },
+            link: 'https://task-manager-update.vercel.app/'
         },
         project3: {
             title: 'Online food delivery',
-            description: 'Asperiores cumque deleniti doloribus error excepturi fuga in ipsa laudantium libero!Asperiores cumque deleniti doloribus error excepturi fuga in ipsa laudantium libero!Asperiores cumque deleniti doloribus error excepturi fuga in ipsa laudantium libero!'
+            mainDescription: 'Task manager - приложение для создания, организации и управления задачами и списками дел. Стек: TS, React, Redux Toolkit, Redux-thunk, React Router, Axios, Formik, MUI, Jest.',
+            stackDescription: 'Task manager - приложение для создания, организации и управления задачами и списками дел. Стек: TS, React, Redux Toolkit, Redux-thunk, React Router, Axios, Formik, MUI, Jest.',
+            listDescription: {
+                1: 'bb',
+                2: 'bb',
+            },
+            link: 'https://github.com/ValeriaBog/Online-ready-to-eat-delivery-service-frontend.git'
+        },
+        project4: {
+            title: 'Flash cards',
+            mainDescription: 'Flash cards- набор карточек, которые используются для обучения и меморизации информации.',
+            stackDescription: 'TS, React, RTK Query, React Router, Radix, React Hook Form.',
+            listDescription: {
+                1: 'Разработала переиспользуемые компоненты со Storybook и протестировала их.',
+                2: 'Применила концепцию Optimistic Updates, что позволило создать плавные переходы и избежать ощущения задержки при обновлении данных на сервере.',
+                3: 'Интегрировала систему аутентификации и авторизации.',
+            },
+            link: 'https://fc4.vercel.app/'
         },
     }
 
@@ -34,21 +67,39 @@ function MyWorks() {
     const foodDeliveryApp = {
         backgroundImage: `url(${foodAppImage})`
     }
+    const flashCards = {
+        backgroundImage: `url(${flashCardsImage})`
+    }
 
     return (
         <div className={s.worksBlock} id="works">
-            <div className={`${sContainer.container} ${s.worksContainer}`} >
+            <div className={`${sContainer.container} ${s.worksContainer}`}>
                 <Title firstPartTitle={'Мои'} secondPartTitle={'проекты'}/>
                 <div className={s.works}>
+                    <MyWork style={flashCards}
+                            title={projects.project4.title}
+                            mainDescription={projects.project4.mainDescription}
+                            stackDescription={projects.project4.stackDescription}
+                            listDescription={projects.project4.listDescription}
+                            link={projects.project4.link}/>
                     <MyWork style={socialNetwork}
                             title={projects.project1.title}
-                            description={projects.project1.description}/>
+                            mainDescription={projects.project1.mainDescription}
+                            stackDescription={projects.project1.stackDescription}
+                            listDescription={projects.project1.listDescription}
+                            link={projects.project1.link}/>
                     <MyWork style={todolists}
                             title={projects.project2.title}
-                            description={projects.project2.description}/>
+                            mainDescription={projects.project2.mainDescription}
+                            stackDescription={projects.project2.stackDescription}
+                            listDescription={projects.project2.listDescription}
+                            link={projects.project2.link}/>
                     <MyWork style={foodDeliveryApp}
                             title={projects.project3.title}
-                            description={projects.project3.description}/>
+                            mainDescription={projects.project3.mainDescription}
+                            stackDescription={projects.project3.stackDescription}
+                            listDescription={projects.project3.listDescription}
+                            link={projects.project3.link}/>
                 </div>
             </div>
         </div>

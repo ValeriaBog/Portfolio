@@ -64,6 +64,9 @@
     }
     .info{
       @include text(19px, 32px);
+      .mainInfo{
+        @include text(22px, 32px);
+      }
     }
     @media screen and (max-width: 945px) {
       order: 2;

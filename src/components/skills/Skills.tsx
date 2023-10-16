@@ -21,13 +21,14 @@ import storybookImage from "../../assets/image/skills/storybook-icon.svg";
 import gitImage from "../../assets/image/skills/github.svg";
 import postmanImage from "../../assets/image/skills/postman.svg";
 import mongoDBImage from "../../assets/image/skills/mongodb-original-wordmark.svg";
+import RHFImage from "../../assets/image/skills/RHF.png";
 
 
 function Skills() {
 
     const skills = {
         skill1: {
-            title: 'JS',
+            title: 'JavaScript',
             description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
         },
         skill2: {
@@ -39,7 +40,7 @@ function Skills() {
             description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
         },
         skill4: {
-            title: 'REDUX',
+            title: 'Redux',
             description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
         },
         skill5: {
@@ -55,7 +56,7 @@ function Skills() {
             description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
         },
         skill8: {
-            title: 'TS',
+            title: 'TypeScript',
             description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
         },
         skill9: {
@@ -96,6 +97,18 @@ function Skills() {
         },
         skill18: {
             title: 'MongoDB',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+        },
+        skill19: {
+            title: 'Redux Toolkit',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+        },
+        skill20: {
+            title: 'RTK Query',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+        },
+        skill21: {
+            title: 'React Hook Form',
             description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
         },
     }
@@ -154,6 +167,9 @@ function Skills() {
     const mongoDBIcon = {
         backgroundImage: `url(${mongoDBImage})`
     }
+    const RHFIcon = {
+        backgroundImage: `url(${RHFImage})`
+    }
 
 
     return (
@@ -164,6 +180,9 @@ function Skills() {
                     <Skill style={jsIcon}
                            title={skills.skill1.title}
                            description={skills.skill1.description}/>
+                    <Skill style={tsIcon}
+                           title={skills.skill8.title}
+                           description={skills.skill8.description}/>
                     <Skill style={htmlIcon}
                            title={skills.skill2.title}
                            description={skills.skill2.description}/>
@@ -173,18 +192,21 @@ function Skills() {
                     <Skill style={reduxIcon}
                            title={skills.skill4.title}
                            description={skills.skill4.description}/>
-                    <Skill style={cssIcon}
-                           title={skills.skill5.title}
-                           description={skills.skill5.description}/>
+                    <Skill style={reduxIcon}
+                           title={skills.skill19.title}
+                           description={skills.skill19.description}/>
+                    <Skill style={reduxIcon}
+                           title={skills.skill20.title}
+                           description={skills.skill20.description}/>
                     <Skill style={angularIcon}
                            title={skills.skill6.title}
                            description={skills.skill6.description}/>
                     <Skill style={nestIcon}
                            title={skills.skill7.title}
                            description={skills.skill7.description}/>
-                    <Skill style={tsIcon}
-                           title={skills.skill8.title}
-                           description={skills.skill8.description}/>
+                    <Skill style={cssIcon}
+                           title={skills.skill5.title}
+                           description={skills.skill5.description}/>
                     <Skill style={sassIcon}
                            title={skills.skill9.title}
                            description={skills.skill9.description}/>
@@ -200,6 +222,9 @@ function Skills() {
                     <Skill style={formikIcon}
                            title={skills.skill13.title}
                            description={skills.skill13.description}/>
+                    <Skill style={RHFIcon}
+                           title={skills.skill21.title}
+                           description={skills.skill21.description}/>
                     <Skill style={jestIcon}
                            title={skills.skill14.title}
                            description={skills.skill14.description}/>

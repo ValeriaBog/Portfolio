@@ -21,6 +21,7 @@
     border-radius: 10px 10px 0 0;
     @include background(center, cover, no-repeat);
     border-bottom: 5px solid #ffb400;
+    box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.51);
 
     .button {
       position: relative;
@@ -32,6 +33,13 @@
       color: $bgColor;
       border: none;
       z-index: 1;
+      cursor: pointer;
+      text-decoration: none;
+      transition: transform 0.3s ease;
+
+      &:hover {
+        transform: scale(1.1);
+      }
     }
 
     &::before { //родительского элемента
@@ -48,7 +56,8 @@
   }
 
   .projectInfo {
-    padding: 25px 20px;
+    padding: 25px 25px;
+
 
     .title {
       @include text(24px, 32px);
@@ -57,11 +66,21 @@
       font-weight: 600;
     }
 
-    .description {
+    .containerDescription {
+      text-align: start;
       @include text(16px, 28px);
+
+      .description {
+
+      }
+
+      .lists {
+        padding: 0 20px;
+      }
     }
   }
-  @media screen and (max-width: 1004px){
+
+  @media screen and (max-width: 1004px) {
     margin-bottom: 20px;
   }
 }
