@@ -3,7 +3,7 @@ import s from './MyWorks.module.scss'
 import sContainer from '../../common/styles/Container.module.scss'
 import MyWork from "./myWork/MyWork";
 import Title from "../../common/components/Title";
-import todoImage from '../../assets/image/works/todolists.jpg'
+import todoImage from '../../assets/image/works/taskManager.png'
 import socialImage from '../../assets/image/works/social-network.jpg'
 import foodAppImage from '../../assets/image/works/foodApp.png'
 import flashCardsImage from '../../assets/image/works/FlashCards.png'
@@ -14,12 +14,12 @@ function MyWorks() {
     const projects = {
         project1: {
             title: 'Social network',
-            mainDescription: 'Task manager - приложение для создания, организации и управления задачами и списками дел. Стек: TS, React, Redux Toolkit, Redux-thunk, React Router, Axios, Formik, MUI, Jest.',
-            stackDescription: 'Task manager - приложение для создания, организации и управления задачами и списками дел. Стек: TS, React, Redux Toolkit, Redux-thunk, React Router, Axios, Formik, MUI, Jest.',
+            mainDescription: 'Social network',
+            stackDescription: 'TS, React, Redux Toolkit, Redux-thunk, React Router, Axios, Formik, MUI, Jest.',
             listDescription: {
-                1: 'пппппппппп',
-                2: 'пппппп',
-                3: 'Разрабатывала систему регистрации: создание и валидация форм.',
+                1: '',
+                2: '',
+                3: '',
             },
             link: 'https://valeriabog.github.io/Updated-Social-Network/'
         },
@@ -41,7 +41,7 @@ function MyWorks() {
             stackDescription: 'TS, Angular, Nestjs, RxJS, Prime NG, MongoDB.',
             listDescription: {
                 1: 'Разработала системы аутентификации и авторизации пользователей, а также личный кабинет с информацией о пользователе.',
-                2: 'Осуществила выгрузку информации о товаре из БД для карточек товаров, фильтрация и поиск для удобства пользователя.',
+                2: 'Осуществила выгрузку информации о товарах из БД для карточек товаров, фильтрация и поиск для удобства пользователя.',
                 3: 'Внедрила проверку на серверной части с применением библиотеки Mongoose введенной информации(логин/пароль) пользователем при авторизации(поиск пользователя в БД и сверка полученных данных с данными из БД) и аутентификации(поиск в БД пользователя с такими же данными).',
             },
             link: 'https://github.com/ValeriaBog/Online-ready-to-eat-delivery-service-frontend.git'
@@ -49,7 +49,7 @@ function MyWorks() {
         project4: {
             title: 'Flash cards',
             mainDescription: 'Flash cards - набор карточек, которые используются для обучения и меморизации информации.',
-            stackDescription: 'TS, React, RTK Query, React Router, Radix, React Hook Form.',
+            stackDescription: 'TS, React, RTK Query, React Router, Radix, React Hook Form, Storybook.',
             listDescription: {
                 1: 'Разработала переиспользуемые компоненты со Storybook и протестировала их.',
                 2: 'Применила концепцию Optimistic Updates, что позволило создать плавные переходы и избежать ощущения задержки при обновлении данных на сервере.',

@@ -1,9 +1,9 @@
 @import "../../common/styles/sass/variables";
 
 .skillsBlock {
-  min-height: 80vh;
+  min-height: 60vh;
   background-color: $mainBGColor;
-  padding: 100px 0;
+  padding: 100px 0 0 0;
 
   .skillsContainer {
     justify-content: flex-start;

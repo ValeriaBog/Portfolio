@@ -27,7 +27,7 @@ function Contacts() {
                     setOpen(true)
                     setMessage('Message sent successfully')
                 }
-            }, (error) => {
+            }, () => {
                 setOpen(true)
                 setMessage('Some error occurred')
             });
@@ -94,7 +94,7 @@ function Contacts() {
                                    margin="dense"
                                    name={"user_email"}
                         />
-                        <TextField label="Введите текст..."
+                        <TextField label="Ваши предложения..."
                                    variant="filled"
                                    fullWidth
                                    color="warning"

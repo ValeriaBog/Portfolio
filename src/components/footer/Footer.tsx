@@ -30,14 +30,14 @@ function Footer() {
     return (
         <div className={s.footerBlock}>
             <div className={`${sContainer.container} ${s.footerContainer}`}>
-                <h2 className={s.title}>Валерия</h2>
+                <h2 className={s.title}>Валерия Богатова</h2>
                 <div className={s.footer}>
                     <div className={s.socialNetwork}>
-                        <Link to={'https://t.me/ValeriaBog'}><div className={s.site} style={telegramIcon}></div></Link>
-                        <Link to={'https://api.whatsapp.com/send?phone=79214356456'}><div className={s.site} style={whatsappIcon}></div></Link>
-                        <Link to={'mailto:valeriabog@yandex.ru'}><div className={s.site} style={emailIcon}></div></Link>
-                        <Link to={'https://www.codewars.com/users/ValeriaBog'}><div className={s.site} style={codeWarslIcon}></div></Link>
-                        <Link to={'https://github.com/ValeriaBog'}><div className={s.site} style={gitHublIcon}></div></Link>
+                        <Link to={'https://t.me/ValeriaBog'} className={s.link}><div className={s.site} style={telegramIcon}></div></Link>
+                        <Link to={'https://api.whatsapp.com/send?phone=79214356456'} className={s.link}><div className={s.site} style={whatsappIcon}></div></Link>
+                        <Link to={'mailto:valeriabog@yandex.ru'} className={s.link}><div className={s.site} style={emailIcon}></div></Link>
+                        <Link to={'https://www.codewars.com/users/ValeriaBog'} className={s.link}><div className={s.site} style={codeWarslIcon}></div></Link>
+                        <Link to={'https://github.com/ValeriaBog'} className={s.link}><div className={s.site} style={gitHublIcon}></div></Link>
                     </div>
                     <div className={s.copyright}>© 2023 Все права защищены</div>
                 </div>

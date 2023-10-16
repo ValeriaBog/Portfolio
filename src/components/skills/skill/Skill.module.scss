@@ -3,10 +3,12 @@
 
 .skill {
     width: 200px;
+    height: 200px;
     background: $bgColor;
     margin: 10px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     text-align: center; /*выравнивает строчные элементы внутри блочных*/
     padding: 15px;
