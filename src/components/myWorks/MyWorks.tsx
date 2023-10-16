@@ -37,17 +37,18 @@ function MyWorks() {
         },
         project3: {
             title: 'Online food delivery',
-            mainDescription: 'Task manager - приложение для создания, организации и управления задачами и списками дел. Стек: TS, React, Redux Toolkit, Redux-thunk, React Router, Axios, Formik, MUI, Jest.',
-            stackDescription: 'Task manager - приложение для создания, организации и управления задачами и списками дел. Стек: TS, React, Redux Toolkit, Redux-thunk, React Router, Axios, Formik, MUI, Jest.',
+            mainDescription: 'Online food delivery - приложение для онлайн-заказа готовой продукции.',
+            stackDescription: 'TS, Angular, Nestjs, RxJS, Prime NG, MongoDB.',
             listDescription: {
-                1: 'bb',
-                2: 'bb',
+                1: 'Разработала системы аутентификации и авторизации пользователей, а также личный кабинет с информацией о пользователе.',
+                2: 'Осуществила выгрузку информации о товаре из БД для карточек товаров, фильтрация и поиск для удобства пользователя.',
+                3: 'Внедрила проверку на серверной части с применением библиотеки Mongoose введенной информации(логин/пароль) пользователем при авторизации(поиск пользователя в БД и сверка полученных данных с данными из БД) и аутентификации(поиск в БД пользователя с такими же данными).',
             },
             link: 'https://github.com/ValeriaBog/Online-ready-to-eat-delivery-service-frontend.git'
         },
         project4: {
             title: 'Flash cards',
-            mainDescription: 'Flash cards- набор карточек, которые используются для обучения и меморизации информации.',
+            mainDescription: 'Flash cards - набор карточек, которые используются для обучения и меморизации информации.',
             stackDescription: 'TS, React, RTK Query, React Router, Radix, React Hook Form.',
             listDescription: {
                 1: 'Разработала переиспользуемые компоненты со Storybook и протестировала их.',
