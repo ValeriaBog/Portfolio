@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.7eb6a5ab.css",
-    "main.js": "/portfolio/static/js/main.a0efb9a3.js",
+    "main.css": "/portfolio/static/css/main.d49fa327.css",
+    "main.js": "/portfolio/static/js/main.1b18b3c6.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/myPhoto.jpeg": "/portfolio/static/media/myPhoto.584eb4af16a64391f6e7.jpeg",
     "static/media/foodApp.png": "/portfolio/static/media/foodApp.194c653b5185e4fa933a.png",
+    "static/media/photo_main.jpg": "/portfolio/static/media/photo_main.80ebb14e85852b53ec5c.jpg",
     "static/media/social-network.jpg": "/portfolio/static/media/social-network.8489a1a614aac7fa5f8d.jpg",
+    "static/media/FlashCards.png": "/portfolio/static/media/FlashCards.f6aaeff648c8db1335bb.png",
     "static/media/todolists.jpg": "/portfolio/static/media/todolists.1193180cdc43d5824910.jpg",
     "static/media/nestjs.svg": "/portfolio/static/media/nestjs.5c16d6d8994596f01f0c491576bdbd3f.svg",
     "static/media/mongodb-original-wordmark.svg": "/portfolio/static/media/mongodb-original-wordmark.52300335cb1653f2a8fa072873a6cc17.svg",
@@ -29,12 +30,12 @@
     "static/media/angular.svg": "/portfolio/static/media/angular.8d025088a1ff1e8c05194f4ddab7a0ad.svg",
     "static/media/css.svg": "/portfolio/static/media/css.315b8fdb9dbf75ae965b80bf368895cd.svg",
     "static/media/html.svg": "/portfolio/static/media/html.0107c93943a8f415b5db64ebb0a9d12d.svg",
-    "main.7eb6a5ab.css.map": "/portfolio/static/css/main.7eb6a5ab.css.map",
-    "main.a0efb9a3.js.map": "/portfolio/static/js/main.a0efb9a3.js.map",
+    "main.d49fa327.css.map": "/portfolio/static/css/main.d49fa327.css.map",
+    "main.1b18b3c6.js.map": "/portfolio/static/js/main.1b18b3c6.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7eb6a5ab.css",
-    "static/js/main.a0efb9a3.js"
+    "static/css/main.d49fa327.css",
+    "static/js/main.1b18b3c6.js"
   ]
 }
