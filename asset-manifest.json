@@ -1,30 +1,40 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.5db4daf3.css",
-    "main.js": "/portfolio/static/js/main.b0f9793c.js",
+    "main.css": "/portfolio/static/css/main.7eb6a5ab.css",
+    "main.js": "/portfolio/static/js/main.a0efb9a3.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/myPhoto.jpeg": "/portfolio/static/media/myPhoto.584eb4af16a64391f6e7.jpeg",
+    "static/media/foodApp.png": "/portfolio/static/media/foodApp.194c653b5185e4fa933a.png",
     "static/media/social-network.jpg": "/portfolio/static/media/social-network.8489a1a614aac7fa5f8d.jpg",
     "static/media/todolists.jpg": "/portfolio/static/media/todolists.1193180cdc43d5824910.jpg",
     "static/media/nestjs.svg": "/portfolio/static/media/nestjs.5c16d6d8994596f01f0c491576bdbd3f.svg",
+    "static/media/mongodb-original-wordmark.svg": "/portfolio/static/media/mongodb-original-wordmark.52300335cb1653f2a8fa072873a6cc17.svg",
     "static/media/sass.svg": "/portfolio/static/media/sass.4aec5b382169dfda34bb98650dfe65ca.svg",
-    "static/media/vk.svg": "/portfolio/static/media/vk.5b47356045945fb4eb2f4a56e4157823.svg",
+    "static/media/codewars.svg": "/portfolio/static/media/codewars.2142327c21001c79611268042f695351.svg",
+    "static/media/styledComponents.svg": "/portfolio/static/media/styledComponents.22d2d36c31a05bb432684c8dcfe248fb.svg",
+    "static/media/jest.svg": "/portfolio/static/media/jest.42636d34f167e54890b4531ccc05423e.svg",
+    "static/media/postman.svg": "/portfolio/static/media/postman.56494d62723ffaa7af4608e56b627733.svg",
+    "static/media/axios.svg": "/portfolio/static/media/axios.bd6acdab1cd728f25cb13396600a2fe4.svg",
     "static/media/whatsapp.svg": "/portfolio/static/media/whatsapp.6b1cea7ff7a64568d1aa948a79a5d8d7.svg",
     "static/media/redux.svg": "/portfolio/static/media/redux.a907b9f98d324503c0c0d9ac2991eb03.svg",
+    "static/media/github.svg": "/portfolio/static/media/github.78b75761e67c8e684972e62008d3a092.svg",
+    "static/media/storybook-icon.svg": "/portfolio/static/media/storybook-icon.c0643a65a8a1b060745974cbca39e478.svg",
     "static/media/react.svg": "/portfolio/static/media/react.f57b6fbfa6088fd494c122d781342874.svg",
     "static/media/js.svg": "/portfolio/static/media/js.fef7215d0d3e578f01ad70419d4c4308.svg",
+    "static/media/email.svg": "/portfolio/static/media/email.9e66fa3913fa1147beaa91c0fdd7672c.svg",
+    "static/media/formik.svg": "/portfolio/static/media/formik.d2a5d1c7cc1532c715a6abb83b1117f2.svg",
     "static/media/typescript.svg": "/portfolio/static/media/typescript.250981d1e26a632d08ab7cf18b210da3.svg",
     "index.html": "/portfolio/index.html",
     "static/media/telegram.svg": "/portfolio/static/media/telegram.7b32e0699fa280a656aa08186d1e6bd5.svg",
     "static/media/angular.svg": "/portfolio/static/media/angular.8d025088a1ff1e8c05194f4ddab7a0ad.svg",
     "static/media/css.svg": "/portfolio/static/media/css.315b8fdb9dbf75ae965b80bf368895cd.svg",
     "static/media/html.svg": "/portfolio/static/media/html.0107c93943a8f415b5db64ebb0a9d12d.svg",
-    "main.5db4daf3.css.map": "/portfolio/static/css/main.5db4daf3.css.map",
-    "main.b0f9793c.js.map": "/portfolio/static/js/main.b0f9793c.js.map",
+    "main.7eb6a5ab.css.map": "/portfolio/static/css/main.7eb6a5ab.css.map",
+    "main.a0efb9a3.js.map": "/portfolio/static/js/main.a0efb9a3.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5db4daf3.css",
-    "static/js/main.b0f9793c.js"
+    "static/css/main.7eb6a5ab.css",
+    "static/js/main.a0efb9a3.js"
   ]
 }
