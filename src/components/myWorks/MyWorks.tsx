@@ -14,12 +14,13 @@ function MyWorks() {
     const projects = {
         project1: {
             title: 'Social network',
-            mainDescription: 'Social network',
-            stackDescription: 'TS, React, Redux Toolkit, Redux-thunk, React Router, Axios, Formik, MUI, Jest.',
+            mainDescription: 'Social network - приложение где пользователи могут размещать посты на стене, редактировать профиль, подписаться на своих друзей и тд.',
+            stackDescription: 'TS, React, Redux , Redux-Form, Redux-Thunk, React Router, Axios, Jest.',
             listDescription: {
-                1: '',
-                2: '',
-                3: '',
+                1: 'Разработала приложение с использованием классовых компонентов.',
+                2: 'Декомпозировала компоненты.',
+                3: 'Разработала систему регистрации: создание и валидация форм.',
+                4: 'Применила Отложенную загрузку React.lazy и Suspense для сложных компонент для повышения производительности.',
             },
             link: 'https://valeriabog.github.io/Updated-Social-Network/'
         },
@@ -51,7 +52,7 @@ function MyWorks() {
             mainDescription: 'Flash cards - набор карточек, которые используются для обучения и меморизации информации.',
             stackDescription: 'TS, React, RTK Query, React Router, Radix, React Hook Form, Storybook.',
             listDescription: {
-                1: 'Разработала переиспользуемые компоненты со Storybook и протестировала их.',
+                1: 'Разработала библиотеку для быстрого создания веб-приложений из шаблонных блоков кода с гибкой настройкой, протестировав с помощью Storybook.',
                 2: 'Применила концепцию Optimistic Updates, что позволило создать плавные переходы и избежать ощущения задержки при обновлении данных на сервере.',
                 3: 'Интегрировала систему аутентификации и авторизации.',
             },
