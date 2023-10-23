@@ -22,6 +22,9 @@ import gitImage from "../../assets/image/skills/github.svg";
 import postmanImage from "../../assets/image/skills/postman.svg";
 import mongoDBImage from "../../assets/image/skills/mongodb-original-wordmark.svg";
 import RHFImage from "../../assets/image/skills/RHF.png";
+import webPackImage from "../../assets/image/skills/webpack-original.svg";
+import viteImage from "../../assets/image/skills/brand-vite.svg";
+import dockerImage from "../../assets/image/skills/docker-original-wordmark.svg";
 
 
 function Skills() {
@@ -111,6 +114,18 @@ function Skills() {
             title: 'React Hook Form',
             description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
         },
+        skill22: {
+            title: 'Webpack',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+        },
+        skill23: {
+            title: 'Vite',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+        },
+        skill24: {
+            title: 'Docker',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+        },
     }
 
     const jsIcon = {
@@ -169,6 +184,15 @@ function Skills() {
     }
     const RHFIcon = {
         backgroundImage: `url(${RHFImage})`
+    }
+    const webpackImageIcon = {
+        backgroundImage: `url(${webPackImage})`
+    }
+    const viteIcon = {
+        backgroundImage: `url(${viteImage})`
+    }
+    const dockerIcon = {
+        backgroundImage: `url(${dockerImage})`
     }
 
 
@@ -240,6 +264,15 @@ function Skills() {
                     <Skill style={mongoDBIcon}
                            title={skills.skill18.title}
                            description={skills.skill18.description}/>
+                    <Skill style={webpackImageIcon}
+                           title={skills.skill22.title}
+                           description={skills.skill22.description}/>
+                    <Skill style={viteIcon}
+                           title={skills.skill23.title}
+                           description={skills.skill23.description}/>
+                    <Skill style={dockerIcon}
+                           title={skills.skill24.title}
+                           description={skills.skill24.description}/>
                 </div>
             </div>
         </div>

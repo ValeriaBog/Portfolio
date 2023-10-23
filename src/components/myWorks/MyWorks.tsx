@@ -14,7 +14,7 @@ function MyWorks() {
     const projects = {
         project1: {
             title: 'Social network',
-            mainDescription: 'Social network - приложение где пользователи могут размещать посты на стене, редактировать профиль, подписаться на своих друзей и тд.',
+            mainDescription: 'Social network - приложение, где пользователи могут размещать посты на стене, редактировать профиль, подписаться на своих друзей и тд.',
             stackDescription: 'TS, React, Redux , Redux-Form, Redux-Thunk, React Router, Axios, Jest.',
             listDescription: {
                 1: 'Разработала приложение с использованием классовых компонентов.',
