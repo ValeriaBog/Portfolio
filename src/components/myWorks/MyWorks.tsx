@@ -13,8 +13,8 @@ function MyWorks() {
 
     const projects = {
         project1: {
-            title: 'Social network',
-            mainDescription: 'Social network - приложение, где пользователи могут размещать посты на стене, редактировать профиль, подписаться на своих друзей и тд.',
+            title: 'Intgram',
+            mainDescription: 'Intgram - приложение социальной сети, где пользователи могут размещать посты на стене, редактировать профиль, подписаться на своих друзей и тд.',
             stackDescription: 'TS, React, Redux , Redux-Form, Redux-Thunk, React Router, Axios, Jest.',
             listDescription: {
                 1: 'Разработала приложение с использованием классовых компонентов.',
@@ -25,8 +25,8 @@ function MyWorks() {
             link: 'https://valeriabog.github.io/Updated-Social-Network/'
         },
         project2: {
-            title: 'Task manager',
-            mainDescription: 'Task manager - приложение для создания, организации и управления задачами и списками дел.',
+            title: 'Trello',
+            mainDescription: 'Trello - приложение для создания, организации и управления задачами и списками дел.',
             stackDescription: 'TS, React, Redux Toolkit, Redux-thunk, React Router, Axios, Formik, MUI, Jest.',
             listDescription: {
                 1: 'Разработала приложение, используя трехуровневую архитектуру: UI-BLL-DAL.',
