@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.8f7e7ef4.css",
-    "main.js": "/Portfolio/static/js/main.ea880119.js",
+    "main.js": "/Portfolio/static/js/main.5d006961.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/foodApp.png": "/Portfolio/static/media/foodApp.194c653b5185e4fa933a.png",
     "static/media/photo_main.jpg": "/Portfolio/static/media/photo_main.80ebb14e85852b53ec5c.jpg",
@@ -34,11 +34,11 @@
     "static/media/html.svg": "/Portfolio/static/media/html.0107c93943a8f415b5db64ebb0a9d12d.svg",
     "static/media/brand-vite.svg": "/Portfolio/static/media/brand-vite.58049a5e42111606ba00d2244ac5a001.svg",
     "main.8f7e7ef4.css.map": "/Portfolio/static/css/main.8f7e7ef4.css.map",
-    "main.ea880119.js.map": "/Portfolio/static/js/main.ea880119.js.map",
+    "main.5d006961.js.map": "/Portfolio/static/js/main.5d006961.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8f7e7ef4.css",
-    "static/js/main.ea880119.js"
+    "static/js/main.5d006961.js"
   ]
 }
